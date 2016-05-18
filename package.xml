@@ -1,0 +1,22 @@
+<package>
+  <name>kuri_msgs</name>
+  <version>0.0.1</version>
+  <description>kuri_msgs</description>
+  <author>Tarek Taha</author>
+  <maintainer email="tarek@tarektaha.com">Tarek Taha</maintainer>
+  <license>LGPL3.0</license>
+  <url></url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+</package>
+ 

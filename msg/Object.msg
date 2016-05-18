@@ -1,0 +1,3 @@
+Header header
+geometry_msgs/PoseWithCovariance pose
+string color
