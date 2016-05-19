@@ -22,6 +22,8 @@ add_message_files(
    Object.msg
    Objects.msg
    ObjectsMap.msg
+   NavTask.msg
+   NavTasks.msg
 )
 
 generate_messages(DEPENDENCIES
