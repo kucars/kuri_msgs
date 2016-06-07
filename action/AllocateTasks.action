@@ -2,7 +2,7 @@
 ObjectsMap objects_map
 ---
 # Define the result
-NavTasks navigation_tasks
+Tasks tasks
 ---
 # Define a feedback message
 float32 planning_progress

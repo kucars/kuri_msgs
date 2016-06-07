@@ -1,8 +1,8 @@
 # Define the goal
-Objects locations
+Tasks tasks
 ---
 # Define the result
-NavTasks paths
+NavTasks nav_tasks
 ---
 # Define a feedback message
 float32 planning_progress
