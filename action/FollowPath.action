@@ -1,0 +1,8 @@
+# Define the goal
+NavTask navigation_task
+---
+# Define the result
+bool success
+---
+# Define a feedback message
+float32 navigation_progress

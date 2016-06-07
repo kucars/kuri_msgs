@@ -9,12 +9,15 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   nav_msgs
   message_generation
-  actionlib_msgs)
+  actionlib_msgs
+  genmsg
+  actionlib
+)
   
 include_directories(
   include
   ${catkin_INCLUDE_DIRS}
-  )
+)
 
 add_message_files(
    DIRECTORY msg
@@ -24,6 +27,18 @@ add_message_files(
    ObjectsMap.msg
    NavTask.msg
    NavTasks.msg
+   Task.msg 
+   Tasks.msg
+)
+
+add_action_files(DIRECTORY action 
+  FILES 
+  Explore.action
+  AllocateTasks.action
+  DropObject.action
+  FollowPath.action
+  GeneratePaths.action
+  PickObject.action
 )
 
 generate_messages(DEPENDENCIES
@@ -31,7 +46,8 @@ generate_messages(DEPENDENCIES
   geometry_msgs
   sensor_msgs
   nav_msgs
-  )
+  actionlib_msgs
+)
 
 catkin_package(CATKIN_DEPENDS 
   message_runtime 

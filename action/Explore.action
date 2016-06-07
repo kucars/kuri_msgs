@@ -1,0 +1,8 @@
+# Define the goal
+uint32 uav_id  
+---
+# Define the result
+ObjectsMap objects_map
+---
+# Define a feedback message
+float32 area_percent_complete

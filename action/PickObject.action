@@ -1,0 +1,8 @@
+# Define the goal
+Object object_2_pick
+---
+# Define the result
+bool success
+---
+# Define a feedback message
+float32 picking_progress 
