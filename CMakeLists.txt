@@ -39,6 +39,8 @@ add_action_files(DIRECTORY action
   FollowPath.action
   GeneratePaths.action
   PickObject.action
+  Mapping.action
+  Tracking.action
 )
 
 generate_messages(DEPENDENCIES
