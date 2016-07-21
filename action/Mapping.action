@@ -1,0 +1,8 @@
+# Define the goal
+uint32 uav_id
+---
+# Define the result
+ObjectsMap objects_map
+---
+# Define a feedback message
+uint32 total_mapped_objects

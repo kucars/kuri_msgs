@@ -1,0 +1,8 @@
+# Define the goal
+uint32 uav_id
+---
+# Define the result
+uint32 total_objects_tracked
+---
+# Define a feedback message
+Objects tracked_objects
