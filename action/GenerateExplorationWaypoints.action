@@ -1,0 +1,9 @@
+# Define the goal
+int16 uav_id
+#Task task
+---
+# Define the result
+NavTask expPath
+---
+# Define a feedback message
+float32 generation_complete

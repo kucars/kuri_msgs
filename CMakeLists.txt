@@ -41,6 +41,7 @@ add_action_files(DIRECTORY action
   PickObject.action
   Mapping.action
   Tracking.action
+  GenerateExplorationWaypoints.action
 )
 
 generate_messages(DEPENDENCIES
