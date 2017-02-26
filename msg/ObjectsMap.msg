@@ -1,3 +1,3 @@
 Header header
-nav_msgs/OccupancyGrid map
+grid_map_msgs/GridMap map
 Object[] objects

@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
   genmsg
   actionlib
+  grid_map_msgs
 )
   
 include_directories(
@@ -50,6 +51,7 @@ generate_messages(DEPENDENCIES
   sensor_msgs
   nav_msgs
   actionlib_msgs
+  grid_map_msgs
 )
 
 catkin_package(CATKIN_DEPENDS 
@@ -57,4 +59,5 @@ catkin_package(CATKIN_DEPENDS
   geometry_msgs 
   std_msgs
   nav_msgs
+  grid_map_msgs
   )
