@@ -6,4 +6,4 @@ uint32 uav_id
 Objects tracked_objects
 ---
 # Define a feedback message
-Object new_object
+Objects new_objects
