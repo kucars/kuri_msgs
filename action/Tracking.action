@@ -1,6 +1,5 @@
 # Define the goal
 uint32 uav_id
-uint32 mode
 ---
 # Define the result
 #uint32 total_objects_tracked
