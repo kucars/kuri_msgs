@@ -1,0 +1,13 @@
+# Define the goal
+geometry_msgs/Pose uav1LocalPose
+geometry_msgs/Pose uav2LocalPose
+geometry_msgs/Pose uav3LocalPose
+
+---
+# Define the result
+geometry_msgs/Pose ref1LocalPose
+geometry_msgs/Pose ref2LocalPose
+geometry_msgs/Pose ref3LocalPose
+
+---
+# Define a feedback message
