@@ -5,3 +5,4 @@ float32 width
 float32 height
 string color
 int16 object_id
+geometry_msgs/PoseWithCovariance pose2
