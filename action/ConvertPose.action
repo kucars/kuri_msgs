@@ -1,8 +1,8 @@
 # Define the goal
-geometry_msgs/Pose uav1LocalPose
-geometry_msgs/Pose uav2LocalPose
-geometry_msgs/Pose uav3LocalPose
-
+geometry_msgs/Pose uav1Pose
+geometry_msgs/Pose uav2Pose
+geometry_msgs/Pose uav3Pose
+uint32 pose_type
 ---
 # Define the result
 geometry_msgs/Pose ref1LocalPose
