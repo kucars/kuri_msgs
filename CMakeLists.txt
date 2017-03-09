@@ -43,6 +43,7 @@ add_action_files(DIRECTORY action
   Mapping.action
   Tracking.action
   GenerateExplorationWaypoints.action
+  ConvertPose.action
 )
 
 generate_messages(DEPENDENCIES
